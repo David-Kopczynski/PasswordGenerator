@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "label": "Capital Letters", "type": "checkbox", "checked": true },
+    { "label": "Numbers", "type": "checkbox", "checked": true },
+    { "label": "Special Characters", "type": "checkbox", "checked": true },
+    { "label": "Extra Long", "type": "checkbox", "checked": true }
+  ]
+}
