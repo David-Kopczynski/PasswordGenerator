@@ -5,6 +5,9 @@ const fs = require("fs");
 var tray;
 var dataJSON;
 
+// Check for multiple instances
+if (!app.requestSingleInstanceLock()) app.quit();
+
 function apppath() {
   return path.join(app.getAppPath(), ...arguments);
 }

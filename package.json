@@ -1,11 +1,11 @@
 {
   "name": "password-generator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Generate random passwords directly into your clipboard",
   "main": "app/main.js",
   "scripts": {
     "start": "electron .",
-    "package": "electron-packager . Password-Generator --overwrite --platform=win32 --arch=x64 --out=dist --electron-version=7.1.7 --icon=icon.ico",
+    "package": "electron-packager . Password-Generator --overwrite --all --out=dist --electron-version=7.1.7 --icon=icon.ico",
     "build": "electron-builder"
   },
   "build": {
